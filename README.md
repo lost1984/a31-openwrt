@@ -1,11 +1,21 @@
 # OpenWRT-CI
-云编译OpenWRT固件
+云编译OpenWRT固件 for A31 
+
+# 插件情况
+去除USB
+luci-app-passwall=y
+luci-app-gecoosac=y #集客AC 1.0
+luci-app-tailscale=y
+luci-app-autoreboot=y
+luci-theme-kucat=y
+luci-app-zerotier=y
+luci-app-lucky=y
+
 
 官方版：
 https://github.com/immortalwrt/immortalwrt.git
 
-高通版：
-https://github.com/VIKINGYFY/immortalwrt.git
+
 
 # 固件简要说明：
 
@@ -13,7 +23,7 @@ https://github.com/VIKINGYFY/immortalwrt.git
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-MEDIATEK系列、QUALCOMMAX系列、ROCKCHIP系列、X86系列。
+
 
 # 目录简要说明：
 
